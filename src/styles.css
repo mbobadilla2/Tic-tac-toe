@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color:#ececec;
+  background-color: rgb(238, 238, 238);
   font-family: sans-serif;
   margin: 20px;
   padding: 0;
@@ -91,6 +91,7 @@ ul {
 
 .status {
   /* background-color: green; */
+  margin-top: 10px;
   margin-bottom: 10px;
 }
 
@@ -113,7 +114,8 @@ ul {
 }
 
 .game-info button {
-  background-color: rgb(61, 138, 123);
+  background-color: rgb(0, 139, 137);
+  border:2px solid rgba(0, 0, 0, 0.5);
   border-radius: 5px;
   color: white;
   line-height: 42px;
@@ -121,7 +123,9 @@ ul {
   width: 186px;
 }
 
-/* .game-board {
-  background-color: cyan;
+.game-board {
+  /* background-color: cyan; */
+  /* box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.3); */
   vertical-align: center;
-} */
+  overflow: hidden;
+}
