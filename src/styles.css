@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color:#ececec;
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 22px;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+h3 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+h4 {
+  margin-top: 0;
+  font-size: 16px;
+}
+
+h5 {
+  margin-top: 0;
+  font-size: 14px;
+}
+
+h6 {
+  margin-top: 0;
+  font-size: 12px;
+}
+
+code {
+  font-size: 1.2em;
+}
+
+ul {
+  padding-inline-start: 1px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* body {
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
+} */
+
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  cursor: pointer;
+  float: left;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 96px;
+  font-weight: bold;
+  line-height: 128px;
+  height: 128px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 128px;
+}
+
+.square:hover {
+ box-shadow: inset 0px 0px 10px 10px rgba(38, 103, 173, 0.1);
+}
+
+.square-winner {
+  background-color: darkcyan;
+  color: #fff;
+}
+
+.board-row:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.status {
+  /* background-color: green; */
+  margin-bottom: 10px;
+}
+
+.game {
+  /* background-color: red; */
+  display: flex;
+  font-size: 28px;
+  justify-content:center;
+  text-align: center;
+}
+
+.game-info {
+  /* background-color: yellow; */
+  margin-left: 20px;
+  text-align: center;
+}
+
+.game-info ol li {
+  list-style: none;
+}
+
+.game-info button {
+  background-color: rgb(61, 138, 123);
+  border-radius: 5px;
+  color: white;
+  line-height: 42px;
+  margin: 10px 0px 10px 0px;
+  width: 186px;
+}
+
+/* .game-board {
+  background-color: cyan;
+  vertical-align: center;
+} */
